@@ -11,7 +11,7 @@ function App() {
 
   return (
     <div>
-      <center><h1><em>R  E  A  C  T   H   A   M   Z  A</em></h1></center>
+      <center><h1><em>R  E  A  C  T   H   A   M   Z  A</em></h1></center><br />
       <article>
   <h1>R e a c t</h1>
   <p>{p1}</p>
