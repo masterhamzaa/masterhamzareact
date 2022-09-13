@@ -5,10 +5,46 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
+  background-color: blueviolet;  
+}
+article {
+  padding: 1rem;
+  max-width: 50rem;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 10px 0px rgba(87, 244, 255, 0.75);
+}
+h2 {
+  text-transform: capitalize;
+}
+
+/* different style for 1st paragraph*/
+p:first-of-type {
+  font-size: 1.1rem;
+}
+/* Drop Cap */
+p:first-of-type:first-letter {
+  font-size: 4.2rem;
+  font-weight: bold;
+  border-radius: 6px;
+
+  display: inline-block;
+  float: left;
+  margin-top: 0.5rem;
+  padding-right: 0.15rem;
+  color: white;
+  background-color: rgb(47, 207, 255);
+  padding: 1.2rem 0.5rem;
+  margin-right: 0.5rem;
+}
+p:first-of-type:first-line {
+  font-weight: bold;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+em {
+  color: white;
 }
