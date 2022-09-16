@@ -1,5 +1,5 @@
 import './App.css';
-
+import React from 'react'
 function App() {
   let p1 = "React a été conçu dès le départ pour une adoption progressive, et vous pouvez utiliser React a minima ou autant que nécessaire. Que vous souhaitiez avoir un aperçu de React, ajouter de l’interactivité à une simple page HTML ou démarrer une application React complète, les liens de cette section vous aideront à bien démarrer.";
   let p2 = "React a été conçu dès le départ pour une adoption progressive, et vous pouvez utiliser React a minima ou autant que nécessaire. Que vous souhaitiez avoir un aperçu de React, ajouter de l’interactivité à une simple page HTML ou démarrer une application React complète, les liens de cette section vous aideront à bien démarrer.";
@@ -16,7 +16,6 @@ function App() {
   <h1>R e a c t</h1>
   <p>{p1}</p>
   <p>{p2}</p>
-
   <p>{p3}</p>
   <h2>{h2}</h2>
   <p>{p4}</p>
