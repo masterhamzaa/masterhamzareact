@@ -17,6 +17,20 @@ article {
   background-color: azure;
   border-radius: 8px;
 }
+.ar2{
+  padding: 2rem;
+  width: 50%;
+  margin: 60px auto;
+  letter-spacing: 2px;
+  box-shadow: 5px 5px 10px 0px rgba(87, 244, 255, 0.75);
+  line-height: 2.3rem;
+  background-color: azure;
+  border-radius: 8px;
+ 
+}
+input{
+  margin-left: 40px;
+}
 h2 {
   text-transform: capitalize;
 }
