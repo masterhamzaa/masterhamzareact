@@ -13,23 +13,42 @@ class Personne extends Component {
 
 const Pht = () => {
   return <div>
-    <div class="form-group">
-      <label for="">p r i x   h o r s   t a x :</label>
+    <div className="form-group">
+      <label forHtml="pht">P r i x  &nbsp; h o r s  &nbsp; t a x :</label>
       <input type="text"class="form-control" name="pht" id="pht" aria-describedby="helpId" placeholder="" />
     </div>
   </div>
 }
 
 const Tva = () => {
-  return <div class="form-group">
-  <label for="ttv">t a u x  t v a :</label>
+  return <div className="form-group">
+  <label for="ttv">T a u x &nbsp;  t v a :</label>
   <input type="text"class="form-control" name="ttv" id="ttv" aria-describedby="helpId" placeholder="" />
 </div>
 
 }
 
 const Buttons = () => {
-  
+  return <div>
+    <button>calculer</button> &nbsp; &nbsp;
+    <button>initialiser</button>
+  </div>
+}
+
+
+class ShoppingList extends React.Component {
+  render() {
+    return (
+      <div className="shopping-list">
+        <h1>Liste de courses pour {this.props.name}</h1>
+        <ul>
+          <li>Instagram</li>
+          <li>WhatsApp</li>
+          <li>Oculus</li>
+        </ul>
+      </div>
+    );
+  }
 }
 
 function App() {
@@ -43,7 +62,7 @@ function App() {
 
   return (
 // code jsx :
-<div>
+<div className='ar'>
       <center><h1><em>R  E  A  C  T   H   A   M   Z  A</em></h1></center><br />
       <article>
         <h1>R e a c t</h1>  <Personne /> 
@@ -56,9 +75,10 @@ function App() {
 
 </article><br />
 <article class="ar2">
-<Pht />
-
+    <Pht />
     <Tva />
+    <div class="b"><Buttons /></div>
+  <ShoppingList />
   </article>
   
 </div>
